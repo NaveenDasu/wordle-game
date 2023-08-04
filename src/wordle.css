@@ -1,0 +1,71 @@
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    font-style: italic;
+    color:#005DA4;
+    text-shadow: 2px 2px;
+  }
+  
+  p {
+    font-size: 2rem;
+    text-align: center;
+
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  input[type='text'] {
+    font-size: 2rem;
+    margin-right: 1rem;
+    text-align: center;
+    width: 10rem;
+    border: 2px solid 	#00bfff;
+   
+  }
+  
+  button[type='submit'] {
+    font-weight:bold;
+    color:white;
+    font-size: 2rem;
+    width: 10rem;
+    background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+    border: none;
+    border-radius: 60px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+
+  }
+  button:hover {
+    opacity: 0.8;
+      background-position: 100% 0;
+      moz-transition: all .4s ease-in-out;
+      -o-transition: all .4s ease-in-out;
+      -webkit-transition: all .4s ease-in-out;
+      transition: all .4s ease-in-out;
+  }
+  button:focus {
+    outline: none;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    font-size: 2rem;
+  }
+.win {
+   color:red;
+   font-family: Cabin Sketch;
+   font-weight:bolder;
+    
+}
